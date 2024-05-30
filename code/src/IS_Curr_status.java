@@ -29,4 +29,13 @@ public class IS_Curr_status {
         System.out.println("EXP: " + status.EXP);
         System.out.println("Level: " + status.getLevel());
     }
+
+    public enum ItemType {
+        //5종류의 장비
+        WEAPON,
+        HELMET,
+        ARMOR,
+        SHOES,
+        ACCESSORY
+    }
 }
